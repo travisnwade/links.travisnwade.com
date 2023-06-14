@@ -88,7 +88,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 100%;
   color-scheme: dark;
-  background-image: url('images/links-bg.jpg');
+  background-image: url('../images/links-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;  
