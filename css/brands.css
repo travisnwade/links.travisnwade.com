@@ -618,3 +618,13 @@ button:hover,
 .button.button-letterboxd:focus {
   filter: brightness(90%);
 }
+
+/* Shop */
+.button.button-shop {
+  color: #ffffff;
+  background-color: #5A31F4;
+}
+.button.button-shop:hover,
+.button.button-shop:focus {
+  filter: brightness(90%);
+}
