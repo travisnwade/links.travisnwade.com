@@ -6,12 +6,12 @@
  *    user zoom.
  */
 
-/* ===== Scrollbar CSS ===== */
 /* https://codepen.io/stephenpaton-tech/full/JjRvGmY */
+/* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #666666 #303030;
+    scrollbar-color: #4f4f4f #303030;
   }
 
   /* Chrome, Edge, and Safari */
@@ -24,8 +24,8 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #666666;
-    border-radius: 10px;
+    background-color: #4f4f4f;
+    border-radius: 0px;
     border: 0px none #ffffff;
   }
 
