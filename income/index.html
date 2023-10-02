@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<!-- The Basics -->
+	<meta charset="UTF-8">
+	<meta name="description" content="" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<title>Travis Wade</title>
+	<meta property="og:title" content="Travis Wade" />
+	<meta property="og:description" content="Travis Wade - Income Ideas" />
+	<meta property="og:url" content="https://dashboard.twade.io" />
+	<meta property="og:site_name" content="Travis Wade" />		
+	
+	<!-- Facebook opengraph markup -->
+	<meta property="og:title" content="Travis Wade">
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://dashboard.twade.io"/>
+	<meta property="og:image" content="https://links.twade.io/images/opengraph.jpg">
+	<meta property="og:description" content="Travis Wade - Income Ideas">
+	<meta property="og:img:alt" content="Travis Wade - Income Ideas">
+
+	<!-- Twitter card markup -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Travis Wade">
+	<meta name="twitter:description" content="Travis Wade - Income Ideas">
+	<meta name="twitter:image" content="https://links.twade.io/images/opengraph.jpg">
+
+	<!-- Mobile URL bar color -->
+	<meta name="theme-color" content="#00ded6">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Scripts & Styles -->
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="css/mfb.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+	<script src="js/mfb.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+	<script src="https://dashboard.twade.io/js/clock.js"></script>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">	
+
+</head>
+
+<!-- FLOATING MENU -->
+
+<ul id="menu" class="mfb-component--tl mfb-zoomin" data-mfb-toggle="hover">
+  <li class="mfb-component__wrap">
+    <a href="#" class="mfb-component__button--main">
+      <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+      <i class="mfb-component__main-icon--active ion-close-round"></i>
+    </a>
+    <ul class="mfb-component__list">
+      <li>
+        <a target="_blank" href="https://www.travisnwade.com" data-mfb-label="Travis Wade's Blog" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon ion-ios-book"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.instagram.com/tn_wade/" data-mfb-label="Travis Wade on Instagram" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon ion-social-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/travisnwade" data-mfb-label="Travis Wade's Github Profile" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon ion-social-github"></i>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<!-- FLOATING MENU -->
+
+<div class="container">
+
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+	<p class="text">A simple dashboard by Travis Wade</p>
+</div>
+
+<div class="row">
+	
+	<div class="col-md-4 col-xl-3">
+	<a target="_blank" href="https://links.travisnwade.com/">
+		<div class="card bg-c-green order-card">
+			<div class="card-block">
+				<h6 class="m-b-20">Links</h6>
+				<!-- <h2 class="text-right"><i class="fa fa-rocket f-left"></i><span>486</span></h2> -->
+				<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+			</div>
+		</div>
+	</a>
+	</div>
+	
+	<div class="col-md-4 col-xl-3">
+	<a target="_blank" href="https://hello.twade.io">
+		<div class="card bg-c-pink order-card">
+			<div class="card-block">
+				<h6 class="m-b-20">Hello</h6>
+				<!-- <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2> -->
+				<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+			</div>
+		</div>
+	</a>
+	</div>
+
+	<div class="col-md-4 col-xl-3">
+	<a target="_blank" href="https://somewebsiteontheinternet.com">
+		<div class="card bg-c-pink order-card">
+			<div class="card-block">
+				<h6 class="m-b-20">SWOTI</h6>
+				<!-- <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span>486</span></h2> -->
+				<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+			</div>
+		</div>
+	</a>
+	</div>
+	
+	<div class="col-md-4 col-xl-3">
+	<a target="_blank" href="https://adguard.tandj.io">
+		<div class="card bg-c-yellow order-card">
+			<div class="card-block">
+				<h6 class="m-b-20">Adguard</h6>
+				<!-- <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2> -->
+				<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+			</div>
+		</div>
+	</a>
+	</div>
+
+	<div class="col-md-4 col-xl-3">
+		<a target="_blank" href="https://kids.tandj.io/">
+			<div class="card bg-c-yellow order-card">
+				<div class="card-block">
+					<h6 class="m-b-20">Kids Schedule</h6>
+					<!-- <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2> -->
+					<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<div class="col-md-4 col-xl-3">
+		<a target="_blank" href="https://automate.twade.io/">
+			<div class="card bg-c-yellow order-card">
+				<div class="card-block">
+					<h6 class="m-b-20">n8n</h6>
+					<!-- <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2> -->
+					<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<div class="col-md-4 col-xl-3">
+		<a target="_blank" href="https://workspaces.twade.io/">
+			<div class="card bg-c-yellow order-card">
+				<div class="card-block">
+					<h6 class="m-b-20">KASM</h6>
+					<!-- <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2> -->
+					<!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+				</div>
+			</div>
+		</a>
+	</div>	
+
+</div><!-- ROW -->
+
+<script>
+var clock = new Vue({
+    el: '#clock',
+    data: {
+        time: '',
+        date: ''
+    }
+});
+
+var week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+var timerID = setInterval(updateTime, 1000);
+updateTime();
+function updateTime() {
+    var cd = new Date();
+    clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+    clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+};
+
+function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+        zero += '0';
+    }
+    return (zero + num).slice(-digit);
+}
+</script>
+
+</div><!-- CONTAINER -->
