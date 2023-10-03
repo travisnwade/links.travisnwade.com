@@ -17,10 +17,10 @@
 
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-dark.css">
-  <link rel="stylesheet" href="css/brands.css">
-  <link rel="stylesheet" href="css/contact-form.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton-dark.css">
+  <link rel="stylesheet" href="../css/brands.css">
+  <link rel="stylesheet" href="../css/contact-form.css">
   <!-- Themes:
          Auto:   css/skeleton-auto.css
          Light:  css/skeleton-light.css
@@ -28,7 +28,7 @@
   -->
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/TravisCircle-Small.png">
+  <link rel="icon" type="image/png" href="../images/TravisCircle-Small.png">
 
 </head>
 
@@ -50,7 +50,7 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/TravisCircle-Small.png" class="avatar" srcset="images/TravisCircle-Small-2x.png 2x" alt="Travis Wade Logo">
+        <img src="../images/TravisCircle-Small.png" class="avatar" srcset="../images/TravisCircle-Small-2x.png 2x" alt="Travis Wade Logo">
 
         <!-- Title -->
         <h1>Travis Wade</h1>
@@ -84,47 +84,32 @@
 
         -->
 
-        <!-- SOCIALS -->
+        <!-- CONTACT FORM -->
+
         <h2>
-            Socials
-        </h2>
+          Get in Touch
+      </h2>
+    </div>
 
-        <!-- Instagram -->
-        <a class="button button-instagram" href="https://instagram.com/tn_wade" target="_blank" rel="noopener">
-            <img class="icon" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
-        <br>
-
-        <!-- Email -->
-        <h2>
-            Get in Touch
-        </h2>
-
-        <a class="button button-default" href="mailto:socials@twade.io" target="_blank" rel="noopener">
-            <img class="icon" src="images/icons/email.svg" alt="Email Icon">socials@twade.io</a>
-        <br>
-
-        <!-- Volunteering -->
-        <h2>
-            Get Involved
-        </h2>
-
-        <a class="button button-web" href="https://wish.org/get-involved" target="_blank" rel="noopener">
-            <img class="icon" src="images/icons/web.svg" alt="Web Logo">Make-a-Wish</a>
-        <br>
-		
-        <a class="button button-web" href="https://soldiersangels.org/ways-to-give/" target="_blank" rel="noopener">
-            <img class="icon" src="images/icons/web.svg" alt="Web Logo">Soldiers Angels</a>
-        <br>
-
-        <!-- Passive Income -->
-        <h2>
-            Passive Income
-        </h2>
-
-        <a class="button button-web" href="https://fundrise.com/r/188p5d" target="_blank" rel="noopener">
-            <img class="icon" src="images/icons/web.svg" alt="Web Logo">Fundrise Realestate</a>
-        <br>
-
+      <div>  
+          <form name="v1 form" id="contact" method="post" data-netlify="true" action="https://links.twade.io">
+          <fieldset>
+              <input name="Name" placeholder="Your name" type="text" tabindex="1" required autocomplete="given-name">
+          </fieldset>
+          <fieldset>
+              <input name="Contact Email" placeholder="Your Email Address" type="email" tabindex="2" required autocomplete="email">
+          </fieldset>
+          <fieldset>
+              <input name="Contact Phone Number" placeholder="Your Phone Number" type="tel" tabindex="3" required autocomplete="tel">
+          </fieldset>
+          <fieldset>
+              <textarea name="Contact Message" placeholder="Type your message here...." tabindex="4" required></textarea>
+          </fieldset>
+          <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...And we're off!">Submit</button>
+          </fieldset>
+          </form>
+      </div>
         <!-- <a href="privacy.html">Privacy Policy</a> |  <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p> -->
       </div>
     </div>
