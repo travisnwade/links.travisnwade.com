@@ -84,6 +84,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* FMT */
+.button.button-fmt {
+  color: #ffffff;
+  background-color: #b912ff;
+}
+.button.button-spotify:hover,
+.button.button-spotify:focus {
+  filter: brightness(90%);
+}
+
 /* Amazon */
 .button.button-amazon {
   color: #000000;
