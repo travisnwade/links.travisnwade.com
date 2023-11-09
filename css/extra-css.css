@@ -9,3 +9,22 @@ a.littlelink {
   color: #fff;
   text-decoration: none;
 }
+
+p.p_bio,
+h1.h1_bio,
+h2.h2_link_title {
+  font-family: 'Playfair Display', serif !important;
+}
+
+h2.h2_link_title {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;  
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;  
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255 255 255 / 75%), rgba(0, 0, 0, 0));
+}
