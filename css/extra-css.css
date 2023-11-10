@@ -1,12 +1,16 @@
+body {
+  margin-bottom: 15px;  
+}
+
 p.footer-p {
-  font-size: .7em;
-  color: gray;
+  font-size: .6em;
+  color: #777;
   margin-top: 5px;
   margin-bottom: 0;
 }
 
 a.littlelink {
-  color: #fff;
+  color: #999;
   text-decoration: none;
 }
 
