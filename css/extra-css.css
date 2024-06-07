@@ -14,6 +14,13 @@ a.littlelink {
   text-decoration: none;
 }
 
+.button {
+  width: 300px;
+  min-width: max-content;
+  padding-left: 15px;
+  padding-right: 15px;  
+}
+
 p.p_bio,
 h1.h1_bio,
 h2.h2_link_title {
